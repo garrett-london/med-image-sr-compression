@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints
+.env
+*.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data
+data/raw/
+data/processed/
+*.h5
+*.pt
+*.pth
+*.onnx
+
+# Logs and models
+logs/
+checkpoints/
+*.log
+*.ckpt
+
+# Virtual environments
+.venv/
+venv/
+
+# personal files
+notes.txt
+overview.txt
