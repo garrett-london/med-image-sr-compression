@@ -1,0 +1,15 @@
+# Config: model params, paths, training setup
+
+train:
+  batch_size: 8
+  num_epochs: 20
+  learning_rate: 0.0001
+  device: "cuda"  # set to "cpu" to force CPU training
+  save_dir: "outputs/"
+
+data:
+  low_res_dir: "data/processed/low_res/"
+  high_res_dir: "data/processed/high_res/"
+
+model:
+  name: "srgan"

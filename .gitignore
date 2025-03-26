@@ -5,6 +5,9 @@ __pycache__/
 .env
 *.env
 
+# IDE
+.idea/
+
 # Jupyter
 .ipynb_checkpoints/
 
@@ -14,7 +17,8 @@ Thumbs.db
 
 # Data
 data/raw/
-data/processed/
+data/processed/high_res
+data/processed/low_res
 *.h5
 *.pt
 *.pth
